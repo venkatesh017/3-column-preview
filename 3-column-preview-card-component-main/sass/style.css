@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn1 {
+  border-radius: 25px;
+  background: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  color: #e38826;
+  border: none;
+  padding: 10px 8px;
+  margin: 25px 25px 25px 0;
+}
+
+.btn1:hover {
+  color: #f2f2f2;
+  background: #e38826;
+}
+
+.btn2 {
+  border-radius: 25px;
+  background: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  color: #006970;
+  border: none;
+  padding: 10px 8px;
+  margin: 25px 25px 25px 0;
+}
+
+.btn2:hover {
+  color: #f2f2f2;
+  background: #006970;
+}
+
+.btn3 {
+  border-radius: 25px;
+  background: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  color: #004241;
+  border: none;
+  padding: 10px 8px;
+  margin: 25px 25px 25px 0;
+}
+
+.btn3:hover {
+  color: #f2f2f2;
+  background: #004241;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Lexend Deca", sans-serif;
+  color: #f2f2f2;
+  width: 800px;
+  height: 400px;
+}
+
+.sedans {
+  background: #e38826;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 25px;
+}
+
+.sedans img {
+  padding: 25px 25px 0 0;
+}
+
+.suv {
+  background: #006970;
+  padding: 25px;
+}
+
+.suv img {
+  padding: 25px 25px 0 0;
+}
+
+.luxury {
+  background: #004241;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 25px;
+}
+
+.luxury img {
+  padding: 25px 25px 0 0;
+}
+
+.title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 35px;
+  padding: 25px 25px 25px 0;
+}
+/*# sourceMappingURL=style.css.map */

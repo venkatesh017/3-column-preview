@@ -1,0 +1,50 @@
+@import'variables';
+@import'globals';
+
+
+.container{
+    display: flex;
+    font-family: $para;
+    color: $white_background;
+    width: 800px;
+    height: 400px;
+    
+    
+    
+}
+.sedans{
+    background: $Bright_orange;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 25px ;
+    img{
+        padding: 25px 25px 0 0 ;
+    }
+    
+  
+}
+.suv{
+background: $Dark_cyan;
+padding: 25px ;
+img{
+    padding: 25px 25px 0 0 ;
+}
+
+}
+.luxury{
+background: $Very_dark_cyan;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+padding: 25px ;
+img{
+    padding: 25px 25px 0 0 ;
+}
+
+}
+.title{
+    font-family: $title;
+    font-size: 35px;
+    padding: 25px 25px 25px 0 ;
+    
+}
+
